@@ -1619,6 +1619,7 @@ footer .contact-form .form-group label {
 .next {
   cursor: pointer;
   position: absolute;
+
   top: 50%;
   width: auto;
   padding: 16px;
@@ -1631,7 +1632,9 @@ footer .contact-form .form-group label {
   user-select: none;
   -webkit-user-select: none;
 }
-
+.prev {
+  left: 0;
+}
 /* Position the "next button" to the right */
 .next {
   right: 0;
