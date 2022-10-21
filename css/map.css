@@ -1,0 +1,44 @@
+.map {
+  height: 50vh;
+  margin: 45px 0;
+}
+
+.adr-heading {
+  color: white;
+  font-size: 16px;
+}
+.adr-info {
+  color: #888;
+  font-size: 15px;
+}
+address {
+  display: flex;
+  background-color: #272727;
+  padding: 30px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+address ul {
+  padding: 0 20px;
+  width: 100%;
+}
+address ul li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+address ul li::before {
+  margin-right: 5px;
+  width: 100px;
+  height: 100px;
+  border-left: 1px solid white;
+}
+@media (min-width: 520px) {
+  address {
+    flex-direction: row;
+    justify-content: center;
+  }
+  address ul li {
+    margin-bottom: 15px;
+  }
+}
